@@ -23,8 +23,8 @@ export function Game() {
     return (
         <>
             <main className="flex flex-col items-center justify-center w-full h-full space-y-3">
-            {isCorrect ? <ConfettiComponent /> : null}
-                <div className="flex flex-col items-center justify-center container mx-auto px-80 space-y-3 ">
+                {isCorrect ? <ConfettiComponent /> : null}
+                <div className="flex flex-col items-center justify-center container mx-auto lg:px-80 space-y-3 ">
                     <div className="h-10">
                         Decode the{' '}
                         <b>
